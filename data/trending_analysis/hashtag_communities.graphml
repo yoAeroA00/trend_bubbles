@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="width" attr.type="long" />
+  <key id="d5" for="node" attr.name="group" attr.type="long" />
+  <key id="d4" for="node" attr.name="page_rank" attr.type="double" />
+  <key id="d3" for="node" attr.name="closeness_centrality" attr.type="double" />
+  <key id="d2" for="node" attr.name="betweenness_centrality" attr.type="double" />
+  <key id="d1" for="node" attr.name="degree_centrality" attr.type="double" />
+  <key id="d0" for="node" attr.name="size" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="#BLEACH">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2514128989361702</data>
+      <data key="d4">0.00546648172941063</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#BLEACH_anime">
+      <data key="d0">6</data>
+      <data key="d1">0.09375</data>
+      <data key="d2">0.10416666666666666</data>
+      <data key="d3">0.3527285447761194</data>
+      <data key="d4">0.048311699627234535</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#BLEACHTYBW">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2514128989361702</data>
+      <data key="d4">0.013363455283706433</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#THEFIRE_BLEACH感想">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2514128989361702</data>
+      <data key="d4">0.013363455283706433</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#山本元柳斎重國">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2514128989361702</data>
+      <data key="d4">0.00704587644026979</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#EnchantedToMeetJAKE">
+      <data key="d0">16</data>
+      <data key="d1">0.25</data>
+      <data key="d2">0.29604828042328035</data>
+      <data key="d3">0.4417348130841121</data>
+      <data key="d4">0.1170401007438328</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="Xマッチ">
+      <data key="d0">4</data>
+      <data key="d1">0.0625</data>
+      <data key="d2">0.028108465608465607</data>
+      <data key="d3">0.4110054347826087</data>
+      <data key="d4">0.06079480084383489</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#คุณชายEP13">
+      <data key="d0">12</data>
+      <data key="d1">0.1875</data>
+      <data key="d2">0.22437169312169317</data>
+      <data key="d3">0.46338848039215685</data>
+      <data key="d4">0.07789901959780325</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#エルピス">
+      <data key="d0">21</data>
+      <data key="d1">0.328125</data>
+      <data key="d2">0.4058366402116398</data>
+      <data key="d3">0.5310744382022472</data>
+      <data key="d4">0.10621204527595433</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#このツイート見た人は好きな天ぷら呟く">
+      <data key="d0">17</data>
+      <data key="d1">0.265625</data>
+      <data key="d2">0.24537037037037038</data>
+      <data key="d3">0.4336295871559633</data>
+      <data key="d4">0.08876398383558143</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#motivation">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0069374560720676295</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#inspiration">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0069374560720676295</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#masonry">
+      <data key="d0">2</data>
+      <data key="d1">0.03125</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.3580729166666667</data>
+      <data key="d4">0.0073171946166704135</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#construction">
+      <data key="d0">2</data>
+      <data key="d1">0.03125</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.3580729166666667</data>
+      <data key="d4">0.0073171946166704135</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#MadeOnFiverr">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.009252337954255292</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#WorldDiabetesDay">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0046225741898799685</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#Ronaldo">
+      <data key="d0">2</data>
+      <data key="d1">0.03125</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.3580729166666667</data>
+      <data key="d4">0.010011815043460858</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#Deloitte">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0046225741898799685</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#眞栄田郷敦">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0069374560720676295</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#masaminagasawa">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0046225741898799685</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#PICU小児集中治療室">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0046225741898799685</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#束の間の一花">
+      <data key="d0">2</data>
+      <data key="d1">0.03125</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.3580729166666667</data>
+      <data key="d4">0.010011815043460858</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#あなたのゲーマータイプ">
+      <data key="d0">2</data>
+      <data key="d1">0.03125</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.3580729166666667</data>
+      <data key="d4">0.010011815043460858</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#月曜から夜ふかし">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0046225741898799685</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#elpishopeordisaster">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0046225741898799685</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#ゴーディアンズ">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.33052884615384615</data>
+      <data key="d4">0.0046225741898799685</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#slablox">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.020833333333333332</data>
+      <data key="d4">0.011849082059610345</data>
+      <data key="d5">5</data>
+    </node>
+    <node id="S+10">
+      <data key="d0">2</data>
+      <data key="d1">0.03125</data>
+      <data key="d2">0.000496031746031746</data>
+      <data key="d3">0.03125</data>
+      <data key="d4">0.022455682034625474</data>
+      <data key="d5">5</data>
+    </node>
+    <node id="#PRESALE">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.020833333333333332</data>
+      <data key="d4">0.011849082059610345</data>
+      <data key="d5">5</data>
+    </node>
+    <node id="#ENHYPEN">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.0074533278316874976</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#JAKE">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.017744598879677873</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#JUNGWON">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.004022904149024038</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#제이크">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.0074533278316874976</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#심재윤">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.005738115990355768</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#ジェイク">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.005738115990355768</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#엔하이픈">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.005738115990355768</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#제이크와_함께면_세계는_아름다워">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.029751081768999984</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#jake">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.005738115990355768</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#ジェイクの幸せはENGENEの">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.009168539673019227</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#ENHYPEN_JAKE">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.004022904149024038</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#ジェイクの幸せはENGENEの幸せ">
+      <data key="d0">2</data>
+      <data key="d1">0.03125</data>
+      <data key="d2">0.02149470899470899</data>
+      <data key="d3">0.34754136029411764</data>
+      <data key="d4">0.008432736417146213</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#호주강아지_레일라오빠">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.2935753105590062</data>
+      <data key="d4">0.004022904149024038</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="#gpay">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.043402777777777776</data>
+      <data key="d4">0.009727762064607317</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="ビッグラン">
+      <data key="d0">5</data>
+      <data key="d1">0.078125</data>
+      <data key="d2">0.00496031746031746</data>
+      <data key="d3">0.078125</data>
+      <data key="d4">0.04366888198465573</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="#gpaycinemahall">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.043402777777777776</data>
+      <data key="d4">0.009727762064607317</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="#WhoIsHatman">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.043402777777777776</data>
+      <data key="d4">0.009727762064607317</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="#gpayindihome">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.043402777777777776</data>
+      <data key="d4">0.009727762064607317</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="#MONEY">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.043402777777777776</data>
+      <data key="d4">0.009727762064607317</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="#JamFilm">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.004376873801848247</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#FilmThanapat">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.014722781272627942</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#แจมรชตะ">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.004376873801848247</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#JamRachata">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.004376873801848247</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#คุณชาย">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.004376873801848247</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#ToSirWithLove">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.004376873801848247</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#ลายกินรีep7">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.004376873801848247</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#AilongNhaiEP8">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.30298477564102566</data>
+      <data key="d4">0.004376873801848247</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="#GTAOnline">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0050023127344827525</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#RockstarGames">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0050023127344827525</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#nadiedicenada">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0050023127344827525</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#MondayMotivation">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0050023127344827525</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#PICU">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0076969331612731975</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#緊急地震速報">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0076969331612731975</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#異常震域">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0076969331612731975</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#VickyPhelan">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0076969331612731975</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="#おつねぽらぼ">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.28997315950920244</data>
+      <data key="d4">0.0050023127344827525</data>
+      <data key="d5">4</data>
+    </node>
+    <edge source="#BLEACH" target="#BLEACH_anime">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#BLEACH_anime" target="#BLEACHTYBW">
+      <data key="d6">7</data>
+    </edge>
+    <edge source="#BLEACH_anime" target="#THEFIRE_BLEACH感想">
+      <data key="d6">7</data>
+    </edge>
+    <edge source="#BLEACH_anime" target="#山本元柳斎重國">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#BLEACH_anime" target="Xマッチ">
+      <data key="d6">6</data>
+    </edge>
+    <edge source="#BLEACH_anime" target="#エルピス">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="Xマッチ">
+      <data key="d6">6</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#エルピス">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#ENHYPEN">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#JAKE">
+      <data key="d6">9</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#JUNGWON">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#제이크">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#심재윤">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#ジェイク">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#엔하이픈">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#제이크와_함께면_세계는_아름다워">
+      <data key="d6">16</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#jake">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#ジェイクの幸せはENGENEの">
+      <data key="d6">4</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#ENHYPEN_JAKE">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#ジェイクの幸せはENGENEの幸せ">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#호주강아지_레일라오빠">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#EnchantedToMeetJAKE" target="#คุณชายEP13">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="Xマッチ" target="#คุณชายEP13">
+      <data key="d6">12</data>
+    </edge>
+    <edge source="Xマッチ" target="#エルピス">
+      <data key="d6">6</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#エルピス">
+      <data key="d6">4</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#JamFilm">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#FilmThanapat">
+      <data key="d6">6</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#แจมรชตะ">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#JamRachata">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#คุณชาย">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#ToSirWithLove">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#ลายกินรีep7">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#AilongNhaiEP8">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#คุณชายEP13" target="#このツイート見た人は好きな天ぷら呟く">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#エルピス" target="#このツイート見た人は好きな天ぷら呟く">
+      <data key="d6">4</data>
+    </edge>
+    <edge source="#エルピス" target="#motivation">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#エルピス" target="#inspiration">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#エルピス" target="#masonry">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#construction">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#MadeOnFiverr">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#エルピス" target="#WorldDiabetesDay">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#Ronaldo">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#Deloitte">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#眞栄田郷敦">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#エルピス" target="#masaminagasawa">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#PICU小児集中治療室">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#束の間の一花">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#あなたのゲーマータイプ">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#月曜から夜ふかし">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#elpishopeordisaster">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#エルピス" target="#ゴーディアンズ">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#GTAOnline">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#RockstarGames">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#nadiedicenada">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#ジェイクの幸せはENGENEの幸せ">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#MondayMotivation">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#masonry">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#construction">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#PICU">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#束の間の一花">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#あなたのゲーマータイプ">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#緊急地震速報">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#Ronaldo">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#異常震域">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#VickyPhelan">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#このツイート見た人は好きな天ぷら呟く" target="#おつねぽらぼ">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#slablox" target="S+10">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="S+10" target="#PRESALE">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#gpay" target="ビッグラン">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ビッグラン" target="#gpaycinemahall">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ビッグラン" target="#WhoIsHatman">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ビッグラン" target="#gpayindihome">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="ビッグラン" target="#MONEY">
+      <data key="d6">1</data>
+    </edge>
+  </graph>
+</graphml>

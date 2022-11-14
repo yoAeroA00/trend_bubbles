@@ -1,0 +1,724 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="width" attr.type="long" />
+  <key id="d5" for="node" attr.name="group" attr.type="long" />
+  <key id="d4" for="node" attr.name="page_rank" attr.type="double" />
+  <key id="d3" for="node" attr.name="closeness_centrality" attr.type="double" />
+  <key id="d2" for="node" attr.name="betweenness_centrality" attr.type="double" />
+  <key id="d1" for="node" attr.name="degree_centrality" attr.type="double" />
+  <key id="d0" for="node" attr.name="size" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="#foggy">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#INDvsENG">
+      <data key="d0">64</data>
+      <data key="d1">1.0</data>
+      <data key="d2">1.0</data>
+      <data key="d3">1.0</data>
+      <data key="d4">0.4606933248536553</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#angira">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#IPL2023">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#IPL2023Auction">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#bollywoodactress">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#T20">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#T20WorldCup">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.05377700917308001</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#virat">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#India">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ViratKohli">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.011258877849498864</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#leaked">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#MSDhoni">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Dhoni">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#RohitSharma">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Vancouver">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.07391717664214476</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#TeamIndia">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.022447859776757062</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#SingaporeSaloon">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#जीतेगा_हिमाचल_जीतेगी_कांग्रेस">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#T20worldcup22">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.020210063391305422</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#IndvsEng">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.011258877849498864</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Vi20FANfest">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.02692345254766034</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#T20Iworldcup2022">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.011258877849498864</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#IndVsEng">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ENGvsIND">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.006783285078595587</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#INDvENG">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.011258877849498864</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ENGvIND">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.006783285078595587</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#T20WC">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.006783285078595587</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ajavit">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#حساب_المواطن">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#topmodel">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ICCT20WorldCup2022">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ContestAlert">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Wickets">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#5G">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#RohitSharma𓃵">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.006783285078595587</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#KLRahul">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#iQOOMegaGiveaway">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#SemiFinalT20WC">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Adelaide">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#رُکنانہیں_جھُکنانہیں">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#England">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#RishiSunak">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#T20WorldCup2022">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.009021081464047226</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#WorldCup">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Leaked">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#cryptocrash">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#LoveIsBlind">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ViratKohli𓃵">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.006783285078595587</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#T20IWorldCup2022">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Semifinals">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#ShahRukhKhan">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#SRK">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#DeepikaPadukone">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#BelieveInBlue">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#TarotReading">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Pakistan">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Cricket">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#WCT20">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#CSTwitter">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#mca21">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#AnnualFiling">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#Semifinal">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#KLRahul𓃵">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <node id="#RRB_NTPC_RESULTDO">
+      <data key="d0">1</data>
+      <data key="d1">0.015625</data>
+      <data key="d2">0.0</data>
+      <data key="d3">0.5039370078740157</data>
+      <data key="d4">0.004545488693143947</data>
+      <data key="d5">0</data>
+    </node>
+    <edge source="#foggy" target="#INDvsENG">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#angira">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#IPL2023">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#IPL2023Auction">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#bollywoodactress">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#T20">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#T20WorldCup">
+      <data key="d6">23</data>
+    </edge>
+    <edge source="#INDvsENG" target="#virat">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#India">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ViratKohli">
+      <data key="d6">4</data>
+    </edge>
+    <edge source="#INDvsENG" target="#leaked">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#MSDhoni">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Dhoni">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#RohitSharma">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Vancouver">
+      <data key="d6">32</data>
+    </edge>
+    <edge source="#INDvsENG" target="#TeamIndia">
+      <data key="d6">9</data>
+    </edge>
+    <edge source="#INDvsENG" target="#SingaporeSaloon">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#जीतेगा_हिमाचल_जीतेगी_कांग्रेस">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#T20worldcup22">
+      <data key="d6">8</data>
+    </edge>
+    <edge source="#INDvsENG" target="#IndvsEng">
+      <data key="d6">4</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Vi20FANfest">
+      <data key="d6">11</data>
+    </edge>
+    <edge source="#INDvsENG" target="#T20Iworldcup2022">
+      <data key="d6">4</data>
+    </edge>
+    <edge source="#INDvsENG" target="#IndVsEng">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ENGvsIND">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#INDvsENG" target="#INDvENG">
+      <data key="d6">4</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ENGvIND">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#INDvsENG" target="#T20WC">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ajavit">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#حساب_المواطن">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#topmodel">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ICCT20WorldCup2022">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ContestAlert">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Wickets">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#5G">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#RohitSharma𓃵">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#INDvsENG" target="#KLRahul">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#iQOOMegaGiveaway">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#SemiFinalT20WC">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Adelaide">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#رُکنانہیں_جھُکنانہیں">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#England">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#RishiSunak">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#T20WorldCup2022">
+      <data key="d6">3</data>
+    </edge>
+    <edge source="#INDvsENG" target="#WorldCup">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Leaked">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#cryptocrash">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#LoveIsBlind">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ViratKohli𓃵">
+      <data key="d6">2</data>
+    </edge>
+    <edge source="#INDvsENG" target="#T20IWorldCup2022">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Semifinals">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#ShahRukhKhan">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#SRK">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#DeepikaPadukone">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#BelieveInBlue">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#TarotReading">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Pakistan">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Cricket">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#WCT20">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#CSTwitter">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#mca21">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#AnnualFiling">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#Semifinal">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#KLRahul𓃵">
+      <data key="d6">1</data>
+    </edge>
+    <edge source="#INDvsENG" target="#RRB_NTPC_RESULTDO">
+      <data key="d6">1</data>
+    </edge>
+  </graph>
+</graphml>

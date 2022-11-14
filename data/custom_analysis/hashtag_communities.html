@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: whitesmoke;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#foggy", "label": "#foggy", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 1.0, "closeness_centrality": 1.0, "degree_centrality": 1.0, "font": {"color": "black"}, "group": 0, "id": "#INDvsENG", "label": "#INDvsENG", "page_rank": 0.4606933248536553, "shape": "dot", "size": 64}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#angira", "label": "#angira", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#IPL2023", "label": "#IPL2023", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#IPL2023Auction", "label": "#IPL2023Auction", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#bollywoodactress", "label": "#bollywoodactress", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#T20", "label": "#T20", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#T20WorldCup", "label": "#T20WorldCup", "page_rank": 0.05377700917308001, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#virat", "label": "#virat", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#India", "label": "#India", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ViratKohli", "label": "#ViratKohli", "page_rank": 0.011258877849498864, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#leaked", "label": "#leaked", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#MSDhoni", "label": "#MSDhoni", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Dhoni", "label": "#Dhoni", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#RohitSharma", "label": "#RohitSharma", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Vancouver", "label": "#Vancouver", "page_rank": 0.07391717664214476, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#TeamIndia", "label": "#TeamIndia", "page_rank": 0.022447859776757062, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#SingaporeSaloon", "label": "#SingaporeSaloon", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#\u091c\u0940\u0924\u0947\u0917\u093e_\u0939\u093f\u092e\u093e\u091a\u0932_\u091c\u0940\u0924\u0947\u0917\u0940_\u0915\u093e\u0902\u0917\u094d\u0930\u0947\u0938", "label": "#\u091c\u0940\u0924\u0947\u0917\u093e_\u0939\u093f\u092e\u093e\u091a\u0932_\u091c\u0940\u0924\u0947\u0917\u0940_\u0915\u093e\u0902\u0917\u094d\u0930\u0947\u0938", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#T20worldcup22", "label": "#T20worldcup22", "page_rank": 0.020210063391305422, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#IndvsEng", "label": "#IndvsEng", "page_rank": 0.011258877849498864, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Vi20FANfest", "label": "#Vi20FANfest", "page_rank": 0.02692345254766034, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#T20Iworldcup2022", "label": "#T20Iworldcup2022", "page_rank": 0.011258877849498864, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#IndVsEng", "label": "#IndVsEng", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ENGvsIND", "label": "#ENGvsIND", "page_rank": 0.006783285078595587, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#INDvENG", "label": "#INDvENG", "page_rank": 0.011258877849498864, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ENGvIND", "label": "#ENGvIND", "page_rank": 0.006783285078595587, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#T20WC", "label": "#T20WC", "page_rank": 0.006783285078595587, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ajavit", "label": "#ajavit", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#\u062d\u0633\u0627\u0628_\u0627\u0644\u0645\u0648\u0627\u0637\u0646", "label": "#\u062d\u0633\u0627\u0628_\u0627\u0644\u0645\u0648\u0627\u0637\u0646", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#topmodel", "label": "#topmodel", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ICCT20WorldCup2022", "label": "#ICCT20WorldCup2022", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ContestAlert", "label": "#ContestAlert", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Wickets", "label": "#Wickets", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#5G", "label": "#5G", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#RohitSharma\ud80c\udcf5", "label": "#RohitSharma\ud80c\udcf5", "page_rank": 0.006783285078595587, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#KLRahul", "label": "#KLRahul", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#iQOOMegaGiveaway", "label": "#iQOOMegaGiveaway", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#SemiFinalT20WC", "label": "#SemiFinalT20WC", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Adelaide", "label": "#Adelaide", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#\u0631\u064f\u06a9\u0646\u0627\u0646\u06c1\u06cc\u06ba_\u062c\u06be\u064f\u06a9\u0646\u0627\u0646\u06c1\u06cc\u06ba", "label": "#\u0631\u064f\u06a9\u0646\u0627\u0646\u06c1\u06cc\u06ba_\u062c\u06be\u064f\u06a9\u0646\u0627\u0646\u06c1\u06cc\u06ba", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#England", "label": "#England", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#RishiSunak", "label": "#RishiSunak", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#T20WorldCup2022", "label": "#T20WorldCup2022", "page_rank": 0.009021081464047226, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#WorldCup", "label": "#WorldCup", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Leaked", "label": "#Leaked", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#cryptocrash", "label": "#cryptocrash", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#LoveIsBlind", "label": "#LoveIsBlind", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ViratKohli\ud80c\udcf5", "label": "#ViratKohli\ud80c\udcf5", "page_rank": 0.006783285078595587, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#T20IWorldCup2022", "label": "#T20IWorldCup2022", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Semifinals", "label": "#Semifinals", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#ShahRukhKhan", "label": "#ShahRukhKhan", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#SRK", "label": "#SRK", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#DeepikaPadukone", "label": "#DeepikaPadukone", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#BelieveInBlue", "label": "#BelieveInBlue", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#TarotReading", "label": "#TarotReading", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Pakistan", "label": "#Pakistan", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Cricket", "label": "#Cricket", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#WCT20", "label": "#WCT20", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#CSTwitter", "label": "#CSTwitter", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#mca21", "label": "#mca21", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#AnnualFiling", "label": "#AnnualFiling", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#Semifinal", "label": "#Semifinal", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#KLRahul\ud80c\udcf5", "label": "#KLRahul\ud80c\udcf5", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}, {"betweenness_centrality": 0.0, "closeness_centrality": 0.5039370078740157, "degree_centrality": 0.015625, "font": {"color": "black"}, "group": 0, "id": "#RRB_NTPC_RESULTDO", "label": "#RRB_NTPC_RESULTDO", "page_rank": 0.004545488693143947, "shape": "dot", "size": 1}]);
+                  edges = new vis.DataSet([{"from": "#foggy", "to": "#INDvsENG", "width": 1}, {"from": "#INDvsENG", "to": "#angira", "width": 1}, {"from": "#INDvsENG", "to": "#IPL2023", "width": 1}, {"from": "#INDvsENG", "to": "#IPL2023Auction", "width": 1}, {"from": "#INDvsENG", "to": "#bollywoodactress", "width": 1}, {"from": "#INDvsENG", "to": "#T20", "width": 1}, {"from": "#INDvsENG", "to": "#T20WorldCup", "width": 23}, {"from": "#INDvsENG", "to": "#virat", "width": 1}, {"from": "#INDvsENG", "to": "#India", "width": 3}, {"from": "#INDvsENG", "to": "#ViratKohli", "width": 4}, {"from": "#INDvsENG", "to": "#leaked", "width": 1}, {"from": "#INDvsENG", "to": "#MSDhoni", "width": 1}, {"from": "#INDvsENG", "to": "#Dhoni", "width": 1}, {"from": "#INDvsENG", "to": "#RohitSharma", "width": 3}, {"from": "#INDvsENG", "to": "#Vancouver", "width": 32}, {"from": "#INDvsENG", "to": "#TeamIndia", "width": 9}, {"from": "#INDvsENG", "to": "#SingaporeSaloon", "width": 1}, {"from": "#INDvsENG", "to": "#\u091c\u0940\u0924\u0947\u0917\u093e_\u0939\u093f\u092e\u093e\u091a\u0932_\u091c\u0940\u0924\u0947\u0917\u0940_\u0915\u093e\u0902\u0917\u094d\u0930\u0947\u0938", "width": 1}, {"from": "#INDvsENG", "to": "#T20worldcup22", "width": 8}, {"from": "#INDvsENG", "to": "#IndvsEng", "width": 4}, {"from": "#INDvsENG", "to": "#Vi20FANfest", "width": 11}, {"from": "#INDvsENG", "to": "#T20Iworldcup2022", "width": 4}, {"from": "#INDvsENG", "to": "#IndVsEng", "width": 1}, {"from": "#INDvsENG", "to": "#ENGvsIND", "width": 2}, {"from": "#INDvsENG", "to": "#INDvENG", "width": 4}, {"from": "#INDvsENG", "to": "#ENGvIND", "width": 2}, {"from": "#INDvsENG", "to": "#T20WC", "width": 2}, {"from": "#INDvsENG", "to": "#ajavit", "width": 1}, {"from": "#INDvsENG", "to": "#\u062d\u0633\u0627\u0628_\u0627\u0644\u0645\u0648\u0627\u0637\u0646", "width": 1}, {"from": "#INDvsENG", "to": "#topmodel", "width": 1}, {"from": "#INDvsENG", "to": "#ICCT20WorldCup2022", "width": 1}, {"from": "#INDvsENG", "to": "#ContestAlert", "width": 3}, {"from": "#INDvsENG", "to": "#Wickets", "width": 1}, {"from": "#INDvsENG", "to": "#5G", "width": 1}, {"from": "#INDvsENG", "to": "#RohitSharma\ud80c\udcf5", "width": 2}, {"from": "#INDvsENG", "to": "#KLRahul", "width": 3}, {"from": "#INDvsENG", "to": "#iQOOMegaGiveaway", "width": 3}, {"from": "#INDvsENG", "to": "#SemiFinalT20WC", "width": 3}, {"from": "#INDvsENG", "to": "#Adelaide", "width": 3}, {"from": "#INDvsENG", "to": "#\u0631\u064f\u06a9\u0646\u0627\u0646\u06c1\u06cc\u06ba_\u062c\u06be\u064f\u06a9\u0646\u0627\u0646\u06c1\u06cc\u06ba", "width": 1}, {"from": "#INDvsENG", "to": "#England", "width": 1}, {"from": "#INDvsENG", "to": "#RishiSunak", "width": 1}, {"from": "#INDvsENG", "to": "#T20WorldCup2022", "width": 3}, {"from": "#INDvsENG", "to": "#WorldCup", "width": 1}, {"from": "#INDvsENG", "to": "#Leaked", "width": 1}, {"from": "#INDvsENG", "to": "#cryptocrash", "width": 1}, {"from": "#INDvsENG", "to": "#LoveIsBlind", "width": 1}, {"from": "#INDvsENG", "to": "#ViratKohli\ud80c\udcf5", "width": 2}, {"from": "#INDvsENG", "to": "#T20IWorldCup2022", "width": 1}, {"from": "#INDvsENG", "to": "#Semifinals", "width": 1}, {"from": "#INDvsENG", "to": "#ShahRukhKhan", "width": 1}, {"from": "#INDvsENG", "to": "#SRK", "width": 1}, {"from": "#INDvsENG", "to": "#DeepikaPadukone", "width": 1}, {"from": "#INDvsENG", "to": "#BelieveInBlue", "width": 1}, {"from": "#INDvsENG", "to": "#TarotReading", "width": 1}, {"from": "#INDvsENG", "to": "#Pakistan", "width": 1}, {"from": "#INDvsENG", "to": "#Cricket", "width": 1}, {"from": "#INDvsENG", "to": "#WCT20", "width": 1}, {"from": "#INDvsENG", "to": "#CSTwitter", "width": 1}, {"from": "#INDvsENG", "to": "#mca21", "width": 1}, {"from": "#INDvsENG", "to": "#AnnualFiling", "width": 1}, {"from": "#INDvsENG", "to": "#Semifinal", "width": 1}, {"from": "#INDvsENG", "to": "#KLRahul\ud80c\udcf5", "width": 1}, {"from": "#INDvsENG", "to": "#RRB_NTPC_RESULTDO", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"borderWidthSelected": 6, "opacity": 0.6, "font": {"size": 12, "face": "verdana"}, "shadow": {"enabled": true}}, "edges": {"arrowStrikethrough": false, "dashes": true, "labelHighlightBold": false, "scaling": {"label": false}, "selfReference": {"renderBehindTheNode": false}}, "interaction": {"multiselect": true, "navigationButtons": true, "hoverConnectedEdges": false}, "manipulation": {"enabled": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
