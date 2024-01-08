@@ -1,9 +1,11 @@
-# trend_bubbles
-blabla booo.....
+## Trend Bubbles
 
-git clone https://huggingface.co/cardiffnlp/xlm-twitter-politics-sentiment/
+*Github do not allow uploading big files. So, I was unable to upload the Sentiment Model but as a substitute Please, use the following Model;
 
-and put model in data\sentiment_model folder
+    git clone https://huggingface.co/cardiffnlp/xlm-twitter-politics-sentiment/
 
-at last run using cmd,
+Copy this model to data\sentiment_model directory.
+
+At last run,
+
     streamlit run Home.py
